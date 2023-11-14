@@ -1,10 +1,10 @@
-package vn.edu.iuh.fit.ids;
+package kiet.com.vn.labweek7www.ids;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import vn.edu.iuh.fit.models.Product;
+import kiet.com.vn.labweek7www.models.Product;
 
 import java.io.Serial;
 import java.io.Serializable;

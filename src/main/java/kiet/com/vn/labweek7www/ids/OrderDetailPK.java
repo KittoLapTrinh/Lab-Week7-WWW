@@ -1,7 +1,7 @@
-package vn.edu.iuh.fit.ids;
+package kiet.com.vn.labweek7www.ids;
 
-import vn.edu.iuh.fit.models.Order;
-import vn.edu.iuh.fit.models.Product;
+import kiet.com.vn.labweek7www.models.Order;
+import kiet.com.vn.labweek7www.models.Product;
 
 import java.io.Serializable;
 

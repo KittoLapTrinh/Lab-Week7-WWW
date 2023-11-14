@@ -1,8 +1,8 @@
-package vn.edu.iuh.fit.repositories;
+package kiet.com.vn.labweek7www.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import vn.edu.iuh.fit.models.Order;
-import vn.edu.iuh.fit.models.OrderDetail;
+import kiet.com.vn.labweek7www.models.Order;
+import kiet.com.vn.labweek7www.models.OrderDetail;
 
 public interface OrderDetailRepository extends JpaRepository<OrderDetail, Order> {
 }

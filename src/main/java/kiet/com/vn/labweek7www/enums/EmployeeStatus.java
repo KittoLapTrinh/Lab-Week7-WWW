@@ -1,4 +1,4 @@
-package vn.edu.iuh.fit.enums;
+package kiet.com.vn.labweek7www.enums;
 
 public enum EmployeeStatus {
     ACTIVE(1),

@@ -1,7 +1,7 @@
-package vn.edu.iuh.fit.repositories;
+package kiet.com.vn.labweek7www.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import vn.edu.iuh.fit.models.Product;
+import kiet.com.vn.labweek7www.models.Product;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {
 }

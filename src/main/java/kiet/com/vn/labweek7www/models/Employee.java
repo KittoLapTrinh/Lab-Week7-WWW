@@ -1,10 +1,10 @@
-package vn.edu.iuh.fit.models;
+package kiet.com.vn.labweek7www.models;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
+//import com.fasterxml.jackson.annotation.JsonFormat;
+//import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+//import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
 import jakarta.persistence.*;
-import vn.edu.iuh.fit.enums.EmployeeStatus;
+import kiet.com.vn.labweek7www.enums.EmployeeStatus;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -26,8 +26,8 @@ public class Employee {
     @Column(name = "full_name", length = 150, nullable = false)
     private String fullname;
     @Column(name = "dob", nullable = false)
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    @JsonSerialize(using = LocalDateSerializer.class)
+//    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+//    @JsonSerialize(using = LocalDateSerializer.class)
     private LocalDate dob;
     @Column(name = "email", unique = true, length = 150)
     private String email;

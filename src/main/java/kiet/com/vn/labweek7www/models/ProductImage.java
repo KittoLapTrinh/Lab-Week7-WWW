@@ -1,4 +1,4 @@
-package vn.edu.iuh.fit.models;
+package kiet.com.vn.labweek7www.models;
 
 import jakarta.persistence.*;
 

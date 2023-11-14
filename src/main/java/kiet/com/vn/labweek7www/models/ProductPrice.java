@@ -1,7 +1,7 @@
-package vn.edu.iuh.fit.models;
+package kiet.com.vn.labweek7www.models;
 
 import jakarta.persistence.*;
-import vn.edu.iuh.fit.ids.ProductPricePK;
+import kiet.com.vn.labweek7www.ids.ProductPricePK;
 
 import java.time.LocalDateTime;
 

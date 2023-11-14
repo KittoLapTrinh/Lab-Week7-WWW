@@ -1,4 +1,4 @@
-package vn.edu.iuh.fit.enums;
+package kiet.com.vn.labweek7www.enums;
 
 public enum ProductStatus {
     ACTIVE(1),//đang kinh doanh

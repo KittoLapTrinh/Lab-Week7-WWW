@@ -1,7 +1,7 @@
-package vn.edu.iuh.fit.models;
+package kiet.com.vn.labweek7www.models;
 
 import jakarta.persistence.*;
-import vn.edu.iuh.fit.ids.OrderDetailPK;
+import kiet.com.vn.labweek7www.ids.OrderDetailPK;
 
 @Entity
 @Table(name = "order_detail")

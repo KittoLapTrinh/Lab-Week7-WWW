@@ -1,7 +1,7 @@
-package vn.edu.iuh.fit.models;
+package kiet.com.vn.labweek7www.models;
 
 import jakarta.persistence.*;
-import vn.edu.iuh.fit.enums.ProductStatus;
+import kiet.com.vn.labweek7www.enums.ProductStatus;
 
 import java.util.ArrayList;
 import java.util.List;
